@@ -31,7 +31,7 @@ export default function About(){
 
   const [expanded, setExpanded] = React.useState(false);
   const handleExpandClick = () => {
-    setExpanded(!expanded);
+    setExpanded(!expanded); 
   };
 
   return (
