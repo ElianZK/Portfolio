@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Application from './components/application';
+import Landing from './components/Landing';
+import About from './components/bodyComps/about';
+import Box from '@mui/material/Box';
+import { Route, Routes } from "react-router-dom";
+function App() { 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <Box sx={{display:'flex',flexDirection:'column', bgcolor:'#000', height:'100vw'}}>
+        <Routes>
+          <Route exact path="/" element={<Landing/>}></Route>
+          <Route exact path="/home" element={<Application/>}></Route>
+        </Routes>
+      </Box>
     </div>
   );
 }

@@ -1,0 +1,47 @@
+:root{
+  --primary:#424242;
+  --p-light: #6d6d6d;
+  --p-dark: #1b1b1b;
+  --secondary:#9c27b0;
+  --s-light:#d05ce3;
+  --s-dark:#6a0080;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+
+
+Button:hover{
+  color: #66e113;
+  font-weight: 750;
+  padding-bottom: 13px;
+  -webkit-transition:0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.150s;
+}
+
+.images{
+  width: 55px;
+  padding-top: 30px;
+}
+
+.picture {
+  filter: blur(2px);
+}
+
+.two{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.cards{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between
+}
