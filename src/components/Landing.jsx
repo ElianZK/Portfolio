@@ -21,7 +21,7 @@ export default function Application () {
           </Box>
           <Box className={s.Know}>
             <Link to='/home'>
-              <Button variant='outlined' sx={{width:'200px',height:'50px'}}> Know Me </Button>
+              <Button variant='outlined' sx={{width:'200px',height:'50px'}}> Conóceme </Button>
             </Link>
           </Box>
         </Typography>
