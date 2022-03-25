@@ -15,8 +15,8 @@ export default function About(){
     <ThemeProvider theme={Themes.purpleGreen}>
       <Typography color="#66e113" >
         <Box sx={{ fontSize:'23px', textAlign:'center'}}>
-          <h1 className={s.title}>Hi! I'm Elian, <br></br>
-            A Full Stack Web Developer</h1>
+          <h1 className={s.title}>Hola! Soy Elian, <br></br>
+            Un Desarrollador Web Full Stack</h1>
         </Box>
         {/* <Box sx={{ display: 'flex', flexDirection:'row',justifyContent:'space-between',marginX:'350px', }}>
         <img className={s.images} src={javascript}alt='js'/>
