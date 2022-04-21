@@ -23,18 +23,9 @@ export default function Application () {
   return (
   < div className={s.fondo} sx={{height:'100%'}}>
     <ThemeProvider theme={Themes.prupleGreen}>
-        <AppBar className={s.Bar} position="fixed">
-            <Toolbar>
-                <Avatar src={logo} sx={{ width: 40, height: 40,mr:'20px' }} />
-              <Box sx={{ display:'flex',width:'100%'}}>
-                {pages.map((page) => (
-                <Button variant='outline' name={page} key={page} sx={{  color: '#fff', display: 'flex', fontSize:'auto', mr:'20px'}}>
-                  {page}
-                </Button>
-                ))}
-              </Box>
-            </Toolbar>
-        </AppBar>
+        
+                <Avatar src={logo} sx={{ width: 160, height: 160,mx:'50px', mt:'50px' }} />
+              
 
         <Box sx={{height:'50px'}}></Box>
 
@@ -46,7 +37,7 @@ export default function Application () {
               <Resume></Resume>
             </Box>
                 
-            <h1 className={s.titles}> Mis Projectos</h1>
+            <h1 className={s.titles}> Mis Proyectos</h1>
 
             <Box sx={{maxWidth:'700px'}}>
               <Projects></Projects>

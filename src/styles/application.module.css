@@ -22,11 +22,11 @@
 Button:hover{
   color: #66e113;
   font-weight: 750;
-  padding-bottom: 13px;
   -webkit-transition:0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0.150s;
 }
+
 
 .images{
   width: 55px;
