@@ -27,7 +27,9 @@ return(
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small">Link to App</Button>
+      <a href="https://pffrontend-fafd3.web.app/">
+        <Button size="small">Link to App</Button>
+      </a>
     </CardActions>
   </Card>
  
@@ -45,7 +47,9 @@ return(
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small">Link to App</Button>
+      <a href="https://henrecommerce.netlify.app/">
+        <Button size="small">Link to App</Button>
+      </a>
     </CardActions>
   </Card>
   
